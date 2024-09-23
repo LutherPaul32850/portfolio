@@ -19,7 +19,7 @@ const SkillCard = ({ skill, index }) => (
     transition={{ duration: 0.5, delay: index * 0.1 }}
     whileHover={{ scale: 1.05 }}
   >
-    <Card sx={{ minHeight: '150px', backgroundColor: skill.color, color: '#fff' }}>
+    <Card sx={{ minHeight: '120px', backgroundColor: skill.color, color: '#fff' }}>
       <CardContent>
         <Typography variant="h6" component="div" sx={{ mb: 2, fontWeight: 'bold' }}>
           {skill.name}
