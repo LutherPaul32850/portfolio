@@ -14,7 +14,7 @@ const projects = [
     link: '#',
   },
   {
-    title: 'OnlineProf',
+    title: 'Vidyadhara',
     description: 'A Springboot-based project that facilitates online mentorship and coaching.',
     link: '#',
   },

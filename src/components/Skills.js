@@ -4,10 +4,10 @@ import { motion } from 'framer-motion';
 
 const skills = [
   { name: 'React', level: 90, color: '#3f51b5' },  // Primary color (Blue)
-  { name: 'JavaScript', level: 85, color: '#ff9800' },  // Complementary color (Orange)
+  { name: 'JavaScript', level: 90, color: '#ff9800' },  // Complementary color (Orange)
   { name: 'HTML/CSS', level: 95, color: '#4caf50' },  // Complementary color (Green)
-  { name: 'Spring/Spring Boot', level: 80, color: '#9c27b0' },
-  { name: 'SQL', level: 90, color: '#009688' },  // Complementary color (Purple)
+  { name: 'Spring/Spring Boot', level: 90, color: '#9c27b0' },
+  { name: 'SQL', level: 85, color: '#009688' },  // Complementary color (Purple)
   { name: 'Node.js', level: 75, color: '#00bcd4' },  // Complementary color (Cyan)
   { name: 'Python', level: 70, color: '#ff5722' },  // Complementary color (Deep Orange)
 ];
