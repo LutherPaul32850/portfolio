@@ -4,6 +4,14 @@ import { motion } from 'framer-motion';
 
 const certifications = [
   {
+    title: 'Red Hat Certified Enterprise Application Developer',
+    organization: 'Red Hat',
+    date: 'September 2024',
+    description: 'Certification that validates the ability to design, develop, and maintain enterprise-level applications using Red Hat technologies, with a focus on Java EE, Red Hat Middleware, and best practices for secure, scalable software development.',
+    image: 'https://images.credly.com/size/680x680/images/ae7dd2bd-1d04-43d9-b148-1ef79ec45129/image.png',
+    link: 'https://www.credly.com/badges/dbe912bf-2066-43d8-923b-36692051c8f1/public_url'
+  },
+  {
     title: 'AWS Certified Cloud Practitioner',
     organization: 'Amazon Web Services',
     date: 'May 2024',
@@ -35,7 +43,11 @@ const Certifications = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: index * 0.2 }}
                   >
-                    <Card className="shadow-md">
+                    <Card className="shadow-md" sx={{
+                    height: '700px', // Fixed height to make all cards the same size
+                    display: 'flex',
+                    flexDirection: 'column',
+                  }}>
                       <CardActionArea href={cert.link} target="_blank" rel="noopener noreferrer">
                         <CardMedia
                           component="img"
